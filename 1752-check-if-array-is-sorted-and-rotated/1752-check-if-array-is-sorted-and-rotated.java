@@ -1,27 +1,21 @@
 class Solution {
     public boolean check(int[] nums) {
-      int[] original = new int[nums.length];
-        if(isSorted(nums))
+        int x=0;
+      for(int i=0;i<nums.length;i++)
+      {
+        if(nums[i]>nums[(i+1)%nums.length])
         {
-            return true;
+            x++;
         }
-        else{
-            for(int x=1;x<nums.length;x++){
-                for(int i=0;i<nums.length;i++)
-                {
-                    original[(i+x)%nums.length] = nums[i];
-                }
-                System.out.println("Array rotated by "+x);
-                printArr(original);
-
-                if(isSorted(original))
-                {
-                    return true;
-                }
-            }
+        if(x>1)
+        {
+            return false;
         }
+      }
 
-      return false;
+      
+
+      return true;
     }
 
     public void printArr(int[] arr)
