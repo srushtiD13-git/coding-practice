@@ -5,7 +5,6 @@ class Solution {
         {
             k = k % nums.length;
             reverseArray(0,nums.length-1,nums);
-        print(nums);
 
         reverseArray(0,k-1,nums);
         reverseArray(k,nums.length-1,nums);
@@ -22,14 +21,6 @@ class Solution {
             nums[left]=temp;
             right--;
             left++;
-        }
-    }
-
-    public void print(int[] nums)
-    {
-        for(int i=0;i<nums.length-1;i++)
-        {
-            System.out.print(nums[i]+" ");
         }
     }
         
