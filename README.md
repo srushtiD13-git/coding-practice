@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/srushtiD13-git/coding-practice/tree/master/0136-single-number) |
+| [0217-contains-duplicate](https://github.com/srushtiD13-git/coding-practice/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/srushtiD13-git/coding-practice/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/srushtiD13-git/coding-practice/tree/master/0485-max-consecutive-ones) |
 ## Two Pointers
@@ -15,4 +16,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/srushtiD13-git/coding-practice/tree/master/0136-single-number) |
+## Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/srushtiD13-git/coding-practice/tree/master/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/srushtiD13-git/coding-practice/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
