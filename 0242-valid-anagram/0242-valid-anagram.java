@@ -3,18 +3,18 @@ class Solution {
       Map<Character, Integer> Smap = new HashMap<>();
       Map<Character, Integer> Tmap = new HashMap<>();
 
-      char[] sArr = s.toCharArray();
-      char[] tArr = t.toCharArray();
+    //   char[] sArr = s.toCharArray();
+    //   char[] tArr = t.toCharArray();
 
-      if(sArr.length != tArr.length)
+      if(s.length() != t.length())
       {
         return false;
       }
 
-      for(int i=0;i<sArr.length;i++)
+      for(int i=0;i<s.length();i++)
       {
-        Smap.put(sArr[i], Smap.getOrDefault(sArr[i], 0)+1);
-        Tmap.put(tArr[i], Tmap.getOrDefault(tArr[i], 0)+1);
+        Smap.put(s.charAt(i), Smap.getOrDefault(s.charAt(i), 0)+1);
+        Tmap.put(t.charAt(i), Tmap.getOrDefault(t.charAt(i), 0)+1);
       }
 
       if( !Smap.equals(Tmap))
@@ -22,6 +22,8 @@ class Solution {
         return false;
       }
 
+
+      //System.out.println(s[0]);
 
       return true;  
     }
