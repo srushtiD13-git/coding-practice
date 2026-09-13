@@ -14,11 +14,6 @@ class Solution {
       for(int i=0;i<sArr.length;i++)
       {
         Smap.put(sArr[i], Smap.getOrDefault(sArr[i], 0)+1);
-       
-      }
-
-      for(int i=0;i<tArr.length;i++)
-      {
         Tmap.put(tArr[i], Tmap.getOrDefault(tArr[i], 0)+1);
       }
 
