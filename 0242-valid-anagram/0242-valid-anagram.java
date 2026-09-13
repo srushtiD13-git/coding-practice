@@ -23,8 +23,6 @@ class Solution {
       }
 
 
-      System.out.println(sArr[0]);
-
       return true;  
     }
 }
