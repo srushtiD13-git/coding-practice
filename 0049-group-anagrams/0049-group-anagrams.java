@@ -26,10 +26,6 @@ class Solution {
         {
             ans.add(entry.getValue());
         }
-    
-
-        printMap(map);
-
 
         return ans;
     }
