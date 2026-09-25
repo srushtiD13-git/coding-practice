@@ -5,11 +5,9 @@ class Solution {
         int[] arr = new int[2];
 
         while(i<j){
-            int res=numbers[i]+numbers[j];
-
-            if(res>target){j--;}
-            else if(res<target){i++;}
-            else if(res==target){break;}
+            if((numbers[i]+numbers[j])>target){j--;}
+            else if((numbers[i]+numbers[j])<target){i++;}
+            else if((numbers[i]+numbers[j])==target){break;}
         }
         arr[0]=i+1;
         arr[1]=j+1;
