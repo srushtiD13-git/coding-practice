@@ -14,8 +14,6 @@ class Solution {
         arr[0]=i+1;
         arr[1]=j+1;
 
-        System.out.println((i+1)+" "+(j+1));
-
         return arr;
         
     }
