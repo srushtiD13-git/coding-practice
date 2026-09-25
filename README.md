@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/srushtiD13-git/coding-practice/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/srushtiD13-git/coding-practice/tree/master/0049-group-anagrams) |
 | [0136-single-number](https://github.com/srushtiD13-git/coding-practice/tree/master/0136-single-number) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/srushtiD13-git/coding-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/srushtiD13-git/coding-practice/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/srushtiD13-git/coding-practice/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/srushtiD13-git/coding-practice/tree/master/0347-top-k-frequent-elements) |
@@ -14,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/srushtiD13-git/coding-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/srushtiD13-git/coding-practice/tree/master/0283-move-zeroes) |
 ## Bit Manipulation
 |  |
@@ -59,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/srushtiD13-git/coding-practice/tree/master/0347-top-k-frequent-elements) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/srushtiD13-git/coding-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
