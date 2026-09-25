@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/srushtiD13-git/coding-practice/tree/master/0005-longest-palindromic-substring) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/srushtiD13-git/coding-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/srushtiD13-git/coding-practice/tree/master/0283-move-zeroes) |
 ## Bit Manipulation
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/srushtiD13-git/coding-practice/tree/master/0005-longest-palindromic-substring) |
 | [0049-group-anagrams](https://github.com/srushtiD13-git/coding-practice/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/srushtiD13-git/coding-practice/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
@@ -65,4 +67,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/srushtiD13-git/coding-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/srushtiD13-git/coding-practice/tree/master/0005-longest-palindromic-substring) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/srushtiD13-git/coding-practice/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
