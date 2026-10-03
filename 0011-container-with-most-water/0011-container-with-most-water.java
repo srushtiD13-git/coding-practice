@@ -6,7 +6,7 @@ class Solution {
         int j=height.length-1;
 
         while(i<j){
-            maxCap=Math.max(maxCap, getCapacity(i,j,height));
+            maxCap=Math.max(maxCap, ((j-i)* Math.min(height[i],height[j])));
             if(height[i]<=height[j]){
                 // int temp=height[i];
                 // while(height[i]<temp && i<j){i++;}
