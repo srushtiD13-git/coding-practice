@@ -8,14 +8,16 @@ class Solution {
         while(i<j){
             maxCap=Math.max(maxCap, ((j-i)* Math.min(height[i],height[j])));
             if(height[i]<=height[j]){
-                i++;
+                
                 int temp=height[i];
+                i++;
                 while(height[i]<temp && i<j){i++;}
                 
             }
             else if(height[i]>height[j]){
-                j--;
+                
                 int temp=height[j];
+                j--;
                 while(height[j]<temp && j>i){j--;}
                 
             }
