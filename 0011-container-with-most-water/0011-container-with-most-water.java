@@ -8,14 +8,16 @@ class Solution {
         while(i<j){
             maxCap=Math.max(maxCap, ((j-i)* Math.min(height[i],height[j])));
             if(height[i]<=height[j]){
-                // int temp=height[i];
-                // while(height[i]<temp && i<j){i++;}
                 i++;
+                int temp=height[i];
+                while(height[i]<temp && i<j){i++;}
+                
             }
             else if(height[i]>height[j]){
-                // int temp=height[j];
-                // while(height[j]<temp && j>i){j--;}
                 j--;
+                int temp=height[j];
+                while(height[j]<temp && j>i){j--;}
+                
             }
         }
 
@@ -24,7 +26,5 @@ class Solution {
         
     }
 
-    public int getCapacity(int i, int j, int[] height){
-        return (j-i)* Math.min(height[i],height[j]);
-    }
+    
 }
